@@ -259,6 +259,7 @@ sensor:
   - platform: template
     name: "Soil Moisture"
     update_interval: 5s
+    force_update: true
     id: soil_moisture
     unit_of_measurement: "%"
     device_class: moisture
